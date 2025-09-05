@@ -29,3 +29,8 @@ a{
     color: black;
     margin:5px;
 }
+button:hover{
+    cursor:pointer;
+    box-shadow: 0px 0px 10px 0px black;
+    transition: 1s;
+}
