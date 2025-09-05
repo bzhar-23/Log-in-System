@@ -24,3 +24,8 @@ button{
     width:70px;
     border-radius: 10px;
 }
+a{
+    text-decoration: none;
+    color: black;
+    margin:5px;
+}
