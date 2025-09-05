@@ -1,36 +1,46 @@
-body{
-    background:#c2c2c2;
+body {
+    background: #c2c2c2;
 }
-form{
-    background:whitesmoke;
-    height:190px;
-    width:300px;
-    margin:300px auto;
-    padding:20px;
+
+form {
+    background: whitesmoke;
+    height: 140px;
+    width: 300px;
+    margin: 300px auto;
+    padding: 20px;
     text-align: center;
     border-radius: 10px;
 }
-input{
+
+input {
     text-align: center;
     background: #f2f2f2;
-    height:25px;
+    height: 25px;
     margin: 5px;
     padding: 2px;
     border-radius: 10px;
 }
-button{
+
+button {
     background: #f2f2f2;
-    margin:4px;
-    width:70px;
+    margin: 4px;
+    width: 70px;
     border-radius: 10px;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
-    margin:5px;
+    margin: 5px;
 }
-button:hover{
-    cursor:pointer;
+
+button:hover {
+    cursor: pointer;
     box-shadow: 0px 0px 10px 0px black;
+    transition: 1s;
+}
+
+a:hover {
+    color: blue;
     transition: 1s;
 }
